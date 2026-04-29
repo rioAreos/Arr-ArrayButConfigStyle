@@ -5,6 +5,8 @@ A lightweight Lua library that lets you create and manage arrays with configurat
 ## Quick Start
 
 ```lua
+local loader = require("Task")
+Arr = initialize() 
 Arr.arrayCreate({
   name = "school",
   type = "string",
